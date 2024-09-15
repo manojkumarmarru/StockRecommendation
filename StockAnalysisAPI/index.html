@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Comparison</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@1.2.1/dist/chartjs-plugin-zoom.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <input type="text" id="symbolInput" placeholder="Enter Stock Symbol">
+        <button onclick="fetchData()">Get Data</button>
+        <div class="col-md-12">
+            <div class="col-md-6">
+                <canvas id="priceChart"></canvas>
+            </div>
+            <div class="col-md-6">
+                <canvas id="smaChart"></canvas>
+                <canvas id="emaChart"></canvas>
+                <canvas id="wmaChart"></canvas>
+            </div>
+        </div>
+    </div>    
+    <script src="script.js"></script>
+</body>
+</html>

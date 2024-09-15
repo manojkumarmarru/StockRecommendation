@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "DgmQneVknNzzSEZM8ob0zsVf6HQ4iC8YQqO36VMpb3E=",
+  "Source": "StockAnalysisAPI",
+  "BasePath": "_content/StockAnalysisAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
